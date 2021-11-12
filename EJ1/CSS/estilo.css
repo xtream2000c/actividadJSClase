@@ -1,0 +1,13 @@
+
+form {
+    width: 295px;
+}
+ul {
+    list-style: none;
+}
+label {
+    width: 200px;
+    display: block;
+    margin: 10px;
+    float: left;
+}
