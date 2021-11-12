@@ -5,7 +5,7 @@ var cadResultado = '';
 function inicializar(){
 
     var pantalla = document.getElementById("resultado");
-        
+
     document.getElementById("cero").onclick =function(event) { cadResultado += 0+ ""; pantalla.innerHTML=cadResultado;};
     document.getElementById("uno").onclick =function(event) { cadResultado += 1+ ""; pantalla.innerHTML=cadResultado;};
     document.getElementById("dos").onclick =function(event) { cadResultado += 2+ "" ; pantalla.innerHTML=cadResultado;};
@@ -24,7 +24,7 @@ function inicializar(){
 
     document.getElementById("coma").onclick =function(event) { cadResultado += ","};
     document.getElementById("igual").onclick = calcular;
-
+ 
 }
 
 function calcular(){
