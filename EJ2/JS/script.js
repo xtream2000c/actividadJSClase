@@ -22,14 +22,7 @@ function inicializar(){
     document.getElementById("multiplicacion").onclick =function(event) { cadResultado += " * "; pantalla.innerHTML=cadResultado;};
     document.getElementById("division").onclick =function(event) { cadResultado += " / "; pantalla.innerHTML=cadResultado;};
 
-    document.getElementById("coma").onclick =function(event) { cadResultado += ","};
-    document.getElementById("igual").onclick = calcular;
+    document.getElementById("coma").onclick =function(event) { cadResultado += "."};
+    document.getElementById("igual").onclick = function(event) {pantalla.innerHTML = eval(cadResultado); cadResultado=''};
  
-}
-
-function calcular(){
-
-    
-
-
 }
